@@ -1,0 +1,40 @@
+Exercícios-de-Pesquisa-Operacional
+Um jovem está saindo com duas namoradas: Sheila e Ana Paula. Ele sabe, por experiência, que: 
+■ Ana Paula, elegante, gosta de frequentar lugares sofisticados, mais caros, de modo que uma saída de três horas custará R$ 240,00. 
+■ Sheila, mais simples, prefere um divertimento mais popular, de modo que uma saída de três horas lhe custará R$ 160,00. 
+■ Seu orçamento permite-lhe dispor de R$ 960,00 mensais para diversão. 
+■ Seus afazeres escolares lhe dão liberdade de, no máximo, 18 horas e 40.000 calorias de sua energia para atividades sociais.
+■ Cada saída com Ana Paula consome 5.000 calorias, mas com Sheila, mais alegre e extrovertida, ele gasta o dobro. 
+■ Ele gosta das duas com a mesma intensidade. Como o jovem deve planejar a sua vida social para obter o número máximo de saídas? (Encontre a solução ótima determinando os pontos extremos do conjunto de soluções viáveis.) 
+
+
+1 passo - Definir as variáveis   
+Xa - quantidade de saídas de com Ana Paula por mês
+Xs - quantidade de saídas com Sheila por mês
+
+2 Passo - Definir o objetivo
+Aumentar o numero de saídas no mês
+(Saídas = Xa + Xs) máximo
+
+3 Passo - Definir as restrições
+R$ 960,00 mensais para diversão
+18 horas de atividades sociais por mês
+40.000 calorias em atividades socias por mês
+
+240Xa + 160Xs ≤ R$ 960,00
+
+3Xa+3Xs ≤ 18h
+
+5000Xa + 10000Xs ≤ 40000 Kcal
+
+4 Passo - Definir a não negatividade
+Xa ≥ 0
+Xs ≥ 0
+
+Resumindo: Achar Xa e Xs ≥ 0  tal que 
+(Saídas = Xa +           Xs) máximo
+           240Xa +    160Xs ≤ R$ 960,00
+               3Xa +         3Xs ≤ 18h
+        5000Xa + 10000Xs ≤ 40000 Kcal
+                Xa ≥ 0
+                                     Xs ≥ 0
