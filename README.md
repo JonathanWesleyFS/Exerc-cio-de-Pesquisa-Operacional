@@ -42,3 +42,5 @@ Max = 60 x1 + 40 x2
                   Xa  ≥ 0
 
 
+<img width="380" height="146" alt="PO" src="https://github.com/user-attachments/assets/616867d9-ef5a-40ac-baff-1012c3d6cb5e" />
+
